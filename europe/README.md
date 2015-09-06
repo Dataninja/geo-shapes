@@ -1,6 +1,9 @@
-geo-shapes - Europe
+geo-shapes > Europe
 ==========
 
-From [leakyMirror/map-of-europe](https://github.com/leakyMirror/map-of-europe). The NUTS level 0 are EU countries, see [Nomenclature of Territorial Units for Statistics](https://en.wikipedia.org/wiki/Nomenclature_of_Territorial_Units_for_Statistics) on Wikipedia for details.
+Official boundaries from [EUROSTAT](http://ec.europa.eu/eurostat/web/gisco/geodata/reference-data/administrative-units-statistical-units).
+For NUTS definition, see also [Nomenclature of Territorial Units for Statistics](https://en.wikipedia.org/wiki/Nomenclature_of_Territorial_Units_for_Statistics) on Wikipedia.
 
-Warning! Some countries here are not in NUTS 0 official list, to be fixed...
+Shapefile-GeoJSON conversion is performed by QGis.
+GeoJSON-TopoJSON conversion is performed by https://github.com/mbostock/topojson/.
+Geometries have been simplified.
